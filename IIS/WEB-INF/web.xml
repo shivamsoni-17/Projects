@@ -1,0 +1,71 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <servlet>
+        <servlet-name>RegisterUserServlet</servlet-name>
+        <servlet-class>RegisterUserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RegisterUserServlet</servlet-name>
+        <url-pattern>/RegisterUserServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>StudentUploadServlet</servlet-name>
+        <servlet-class>StudentUploadServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>StudentUploadServlet</servlet-name>
+        <url-pattern>/StudentUploadServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TeacherUploadServlet</servlet-name>
+        <servlet-class>TeacherUploadServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>TeacherUploadServlet</servlet-name>
+        <url-pattern>/TeacherUploadServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>FetchStudentsServlet</servlet-name>
+        <servlet-class>FetchStudentsServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>FetchStudentsServlet</servlet-name>
+        <url-pattern>/FetchStudentsServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SubmitMarksServlet</servlet-name>
+        <servlet-class>SubmitMarksServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SubmitMarksServlet</servlet-name>
+        <url-pattern>/SubmitMarksServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RegisterCourseServlet</servlet-name>
+        <servlet-class>RegisterCourseServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RegisterCourseServlet</servlet-name>
+        <url-pattern>/RegisterCourseServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>FetchStudentsForAttendanceServlet</servlet-name>
+        <servlet-class>FetchStudentsForAttendanceServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FetchStudentsForAttendanceServlet</servlet-name>
+        <url-pattern>/FetchStudentsForAttendanceServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
