@@ -23,6 +23,13 @@ HTML, Javascript, JSP, Servlets, Cookies, Session Tracking, Php, JDBC Database C
 > <br>
 > Functions: validate(), register(), login()
 <br>
+<img src="https://github.com/user-attachments/assets/faa2bab6-bc30-4b1f-a3a4-cd78b75e5521" width="400">
+&nbsp
+<img src="https://github.com/user-attachments/assets/3633882e-be1a-46a6-a3fb-eaf7ac661b2b" width="400">
+<br>
+<br>
+<br>
+
 ### Student Module: It is the home page for the students.
 
 -	Course Registration: Students can browse courses for the upcoming semester.
@@ -34,6 +41,10 @@ HTML, Javascript, JSP, Servlets, Cookies, Session Tracking, Php, JDBC Database C
 > Attributes: course, id, username, semester, result, attendance
 > <br>
 >Functions: Submit(), getResult(), logout(), getAttendance
+<br>
+<img src="https://github.com/user-attachments/assets/19a444cc-5a00-427b-93c9-b1add1633e97" width="400">
+<br>
+<br>
 <br>
 ###	Teacher Module: It is the home page for teacher.
 
