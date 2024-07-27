@@ -46,6 +46,7 @@ HTML, Javascript, JSP, Servlets, Cookies, Session Tracking, Php, JDBC Database C
 <br>
 <br>
 <br>
+
 ###	Teacher Module: It is the home page for teacher.
 
 -	Internal Marks Entry: Teachers can enter or update internal marks of students. 
@@ -58,6 +59,7 @@ HTML, Javascript, JSP, Servlets, Cookies, Session Tracking, Php, JDBC Database C
 > <br>
 > Functions: submit(), Edit(), getEvent() 
 <br>
+
 ### Profile: This module will display the information of logged in user like the username, profile image, total content, their posts etc. 
 
 > Attributes: id, username, date, content, batch, course, department
